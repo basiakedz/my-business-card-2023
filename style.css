@@ -50,6 +50,7 @@ body {
   font-size: 18px;
   margin: 0;
   font-style: italic;
+  font-weight: 400;
 }
 
 .card__description {
@@ -60,4 +61,20 @@ body {
 .card__link {
   color: #a7dff1;
   text-decoration: none;
+}
+
+.card__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 425px;
+  flex-grow: 1;
 }
