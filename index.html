@@ -8,26 +8,36 @@
     <link href="normalize.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main class="card">
-      <article>
-        <img src="/profile_picture.png" alt="Profile picture" />
-        <div>
-          <head>
-            <h1>Barbara Kędziorek</h1>
-            <p>Junior Frontend Developer</p>
-          </head>
-          <p>
-            Junior Frontend Developer in progress of studying since November
-            2022. Participant of the WTF course and SDA graduate - 7-month
-            frontend developer course. She loves travelling, especially to
-            Italy, speaks english and italian and loves challanges.
-          </p>
-          <p>
-            On the Web: <a href="https://github.com/basiakedz">GitHub</a>,
-            <a href="#">LinedIn</a>.
-          </p>
-        </div>
-      </article>
-    </main>
+    <div class="background-color">
+      <main class="card">
+        <article>
+          <div class="card__profile-space">
+            <img
+              class="card__profile-picture"
+              src="/profile_picture.png"
+              alt="Profile picture"
+            />
+          </div>
+          <div>
+            <head>
+              <h1 class="card__name">Barbara Kędziorek</h1>
+              <p class="card__position">Junior Frontend Developer</p>
+            </head>
+            <p class="card__description">
+              Junior Frontend Developer in progress of studying since November
+              2022. Participant of the WTF course and SDA graduate - 7-month
+              frontend developer course. She loves travelling, especially to
+              Italy, speaks english and italian and loves challanges.
+            </p>
+            <p class="card__description">
+              On the Web:
+              <a class="card__link" href="https://github.com/basiakedz"
+                >GitHub</a
+              >, <a class="card__link" href="#">LinedIn</a>.
+            </p>
+          </div>
+        </article>
+      </main>
+    </div>
   </body>
 </html>
